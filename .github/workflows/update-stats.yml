@@ -12,6 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Ensure the destination folder exists
+      - name: Create profile directory
+        run: mkdir -p profile
+
+      # 1. General Stats Card
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -19,17 +24,25 @@ jobs:
           options: username=prageeth-thilakarathna&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide=issues,prs,reviews
           token: ${{ secrets.PAT_1 }}
 
+      # 2. Top Languages Card (Optimized to filter out noise)
+      # TIP: If a specific repo is skewing your data, add "&exclude_repo=repo-name-here" to the options below
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=prageeth-thilakarathna&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true
+          options: username=prageeth-thilakarathna&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true&hide=html,css
           token: ${{ secrets.PAT_1 }}
 
+      # 3. GitHub Streak Stats Card (Added via secure local curl fetch)
+      - name: Generate streak card
+        run: |
+          curl -s "https://github-readme-streak-stats.herokuapp.com/?user=prageeth-thilakarathna&theme=tokyonight&hide_border=true" -o profile/streak.svg
+
+      # 4. Save changes back to your repository
       - name: Commit and Push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "Update GitHub stats cards" || echo "No changes to commit"
+          git add profile/
+          git commit -m "Update automated GitHub profile cards" || echo "No changes to commit"
           git push
