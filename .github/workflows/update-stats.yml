@@ -25,3 +25,11 @@ jobs:
           card: top-langs
           options: username=prageeth-thilakarathna&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true
           token: ${{ secrets.PAT_1 }}
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "Update GitHub stats cards" || echo "No changes to commit"
+          git push
