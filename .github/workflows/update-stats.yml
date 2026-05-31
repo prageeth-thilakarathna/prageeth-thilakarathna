@@ -24,13 +24,12 @@ jobs:
           options: username=prageeth-thilakarathna&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide=issues,prs,reviews
           token: ${{ secrets.PAT_1 }}
 
-      # 2. Top Languages Card (Optimized to filter out noise)
-      # TIP: If a specific repo is skewing your data, add "&exclude_repo=repo-name-here" to the options below
+      # 2. Top Languages Card (Public repos only, matching the exact API URL)
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=prageeth-thilakarathna&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true&hide=html,css
+          options: username=prageeth-thilakarathna&layout=compact&theme=tokyonight&hide_border=true&langs_count=8
           token: ${{ secrets.PAT_1 }}
 
       # 3. GitHub Streak Stats Card (Added via secure local curl fetch)
