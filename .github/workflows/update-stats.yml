@@ -29,7 +29,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=prageeth-thilakarathna&layout=compact&theme=tokyonight&hide_border=true&langs_count=12&count_private=false&hide=html,css
+          options: username=prageeth-thilakarathna&layout=compact&theme=tokyonight&hide_border=true&langs_count=20&count_private=false
           token: ${{ secrets.PAT_1 }}
 
       # 3. GitHub Streak Stats Card (Added via secure local curl fetch)
