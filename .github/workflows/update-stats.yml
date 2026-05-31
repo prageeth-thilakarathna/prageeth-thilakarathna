@@ -21,7 +21,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=prageeth-thilakarathna&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide=issues,prs,reviews&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=8
+          options: username=prageeth-thilakarathna&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide=issues,prs,reviews
           token: ${{ secrets.PAT_1 }}
 
       # 2. Top Languages Card (Uses public API to strictly calculate public repos)
@@ -37,7 +37,7 @@ jobs:
       # 4. GitHub Profile Trophy Card
       - name: Generate trophy card
         run: |
-          curl -s "https://trophy.benkou.dev/?username=prageeth-thilakarathna&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" -o profile/trophy.svg
+          curl -s "https://trophy.benkou.dev/?username=prageeth-thilakarathna&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=8&hide=issues,prs,reviews" -o profile/trophy.svg
 
       # 5. Save changes back to your repository
       - name: Commit and Push changes
