@@ -34,7 +34,12 @@ jobs:
         run: |
           curl -s "https://github-readme-streak-stats.herokuapp.com/?user=prageeth-thilakarathna&theme=tokyonight&hide_border=true" -o profile/streak.svg
 
-      # 4. Save changes back to your repository
+      # 4. GitHub Profile Trophy Card
+      - name: Generate trophy card
+        run: |
+          curl -s "https://trophy.benkou.dev/?username=prageeth-thilakarathna&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" -o profile/trophy.svg
+
+      # 5. Save changes back to your repository
       - name: Commit and Push changes
         run: |
           git config --local user.email "action@github.com"
