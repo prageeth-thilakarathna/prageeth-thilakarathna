@@ -153,7 +153,7 @@ Holistic wellness ecosystem designed around AI Pose Estimation for real-time exe
 
 Explore my repositories for smaller experiments across embedded firmware (MicroPython / C), backend microservice prototypes, and DevOps configuration work.
 
-[![GitHub](https://img.shields.io/badge/View_All_Repos-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prageeth-thilakarathna)
+[![GitHub](https://img.shields.io/badge/View_All_Repos-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/prageeth-thilakarathna?tab=repositories)
 
 </td>
 </tr>
