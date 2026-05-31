@@ -16,7 +16,7 @@ jobs:
       - name: Create profile directory
         run: mkdir -p profile
 
-      # 1. General Stats Card
+      # 1. General Stats Card (Uses your PAT to include private commit counts)
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -24,15 +24,12 @@ jobs:
           options: username=prageeth-thilakarathna&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide=issues,prs,reviews
           token: ${{ secrets.PAT_1 }}
 
-      # 2. Top Languages Card (Public repos only, matching the exact API URL)
+      # 2. Top Languages Card (Uses public API to strictly calculate public repos)
       - name: Generate top languages card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=prageeth-thilakarathna&layout=compact&theme=tokyonight&hide_border=true&langs_count=20&count_private=false
-          token: ${{ secrets.PAT_1 }}
+        run: |
+          curl -s "https://gh-stats.work/api/top-langs/?username=prageeth-thilakarathna&layout=compact&theme=tokyonight&hide_border=true&langs_count=20" -o profile/top-langs.svg
 
-      # 3. GitHub Streak Stats Card (Added via secure local curl fetch)
+      # 3. GitHub Streak Stats Card
       - name: Generate streak card
         run: |
           curl -s "https://github-readme-streak-stats.herokuapp.com/?user=prageeth-thilakarathna&theme=tokyonight&hide_border=true" -o profile/streak.svg
