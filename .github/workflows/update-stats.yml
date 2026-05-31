@@ -21,7 +21,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=prageeth-thilakarathna&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide=issues,prs,reviews
+          options: username=prageeth-thilakarathna&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide=issues,prs,reviews&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=8
           token: ${{ secrets.PAT_1 }}
 
       # 2. Top Languages Card (Uses public API to strictly calculate public repos)

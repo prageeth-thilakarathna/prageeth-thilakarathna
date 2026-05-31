@@ -165,17 +165,17 @@ Explore my repositories for smaller experiments across embedded firmware (MicroP
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=prageeth-thilakarathna&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" width="100%" alt="Trophy"/>
+<img src="./profile/trophy.svg" width="100%" alt="GitHub Profile Trophy"/>
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=prageeth-thilakarathna&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="165"/>
+<img src="./profile/stats.svg" height="165" alt="GitHub Stats"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=prageeth-thilakarathna&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165"/>
+<img src="./profile/top-langs.svg" height="165" alt="Top Languages"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=prageeth-thilakarathna&theme=tokyonight&hide_border=true" width="60%"/>
+<img src="./profile/streak.svg" width="60%" alt="GitHub Streak Stats"/>
 
 </div>
 
