@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Prageeth%20Thilakarathna&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Associate%20Software%20Engineer%20%7C%20Backend%20%C2%B7%20IoT%20%C2%B7%20AI%20Systems&descAlignY=58&descColor=a8d8ea&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Prageeth%20Thilakarathna&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20Backend%20%C2%B7%20IoT%20%C2%B7%20AI%20Systems&descAlignY=58&descColor=a8d8ea&animation=fadeIn" width="100%"/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=prageeth-thilakarathna&label=Profile%20Views&color=2c5364&style=for-the-badge)](https://github.com/prageeth-thilakarathna)
 
@@ -186,10 +186,10 @@ Explore my repositories for smaller experiments across embedded firmware (MicroP
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/prageeth-thilakarathna)
-[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/prageeth-thilakarathna)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@prageeth-thilakarathna)
-[![Twitter / X](https://img.shields.io/badge/Twitter%2FX-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/prageeth-thilakarathna)
-[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://hackerrank.com/prageeth-thilakarathna)
+[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/prageeth_thilakarathna)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@prageeth_thilakarathna)
+[![Twitter / X](https://img.shields.io/badge/Twitter%2FX-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/pcthilakarathna)
+[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/yg_prageeth_001)
 [![Gmail](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ygprageeththilakarathna@gmail.com)
 
 </div>
