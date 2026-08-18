@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Prageeth Thilakarathna&#39;s GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 2, Total Commits  : 4969, Contributed to (last year): 14</desc>
+        <desc id="descId">Total Stars Earned: 2, Total Commits  : 4974, Contributed to (last year): 14</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 107.82172061918622;
+        stroke-dashoffset: 107.8170934682254;
       }
     }
   
